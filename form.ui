@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMain">
+    <property name="title">
+     <string>Main</string>
+    </property>
+    <addaction name="actionSantri"/>
+    <addaction name="actionProgram"/>
+    <addaction name="actionPembayaran"/>
+   </widget>
+   <widget class="QMenu" name="menuPengumuman">
+    <property name="title">
+     <string>Pengumuman</string>
+    </property>
+   </widget>
+   <addaction name="menuMain"/>
+   <addaction name="menuPengumuman"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSantri">
+   <property name="text">
+    <string>Santri</string>
+   </property>
+  </action>
+  <action name="actionProgram">
+   <property name="text">
+    <string>Program</string>
+   </property>
+  </action>
+  <action name="actionPembayaran">
+   <property name="text">
+    <string>Pembayaran</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
